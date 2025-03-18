@@ -1,9 +1,9 @@
 import express from "express";
 const app = express();
 import cors from "cors";
-import boardRoutes from "./src/routes/boardRoutes.js";
-import listRoutes from "./src/routes/listRoutes.js";
-import cardRoutes from "./src/routes/cardRoutes.js";
+import boardRoutes from "./routes/boardRoutes.js";
+import listRoutes from "./routes/listRoutes.js";
+import cardRoutes from "./routes/cardRoutes.js";
 import dotenv from "dotenv";
 dotenv.config();
 const PORT = process.env.PORT || 5000;
