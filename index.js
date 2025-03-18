@@ -13,7 +13,7 @@ app.use(express.json({ limit: '10mb' }));  // #Limit for JSON bodies
 
 app.use(cors({
   credentials: true,
-  origin: 'http://localhost:3000'
+  origin: 'https://assignment-task-frontend-rateup.vercel.app'
 }));
 
 // Routes 
